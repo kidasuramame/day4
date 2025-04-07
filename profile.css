@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: black;
+    font-family: Arial, sans-serif;
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .login-container {
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 60px 68px 40px;
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+  }
+  .login-container h1 {
+    font-size: 32px;
+    margin-bottom: 28px;
+  }
+  .login-container input {
+    background: #333;
+    border: none;
+    border-radius: 4px;
+    padding: 16px;
+    margin-bottom: 16px;
+    color: white;
+  }
+  .login-container button {
+    background: #e50914;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 16px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 16px;
+  }
+  .login-container .options {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    color: #b3b3b3;
+    margin-bottom: 40px;
+  }
+  .login-container .signup {
+    font-size: 16px;
+    color: #b3b3b3;
+  }
+  .login-container .signup a {
+    color: white;
+    text-decoration: none;
+  }
+  .login-container .recaptcha {
+    font-size: 13px;
+    color: #8c8c8c;
+    margin-top: 16px;
+  }
+  .login-container .recaptcha a {
+    color: #0071eb;
+    text-decoration: none;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+.navbar .logo img {
+    width: 120px;
+}
+.navbar .nav-links {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.navbar .nav-links li {
+    margin: 0 15px;
+}
+.navbar .nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+.navbar .nav-links a:hover {
+    color: #e50914;
+}
+.navbar .profile {
+    display: flex;
+    align-items: center;
+}
+.navbar .profile a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0 15px;
+    transition: 0.3s;
+}
+.navbar .profile a:hover {
+    color: #e50914;
+}
+.navbar .profile img {
+    width: 35px;
+    border-radius: 5px;
+    margin-left: 15px;
+    cursor: pointer;
+}
